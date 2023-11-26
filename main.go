@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/alessandrapaulaf/tripper-core/configs"
+)
 
 func main() {
+	configs.StartDb()
 	fmt.Println("Hello World")
 }
